@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fastapi-mongo"
+version = "0.1.0"
+description = ""
+authors = ["dzaton <dzatonsaiz@gmail.com>"]
+readme = "README.md"
+packages = [{include = "fastapi_mongo"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.109.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
